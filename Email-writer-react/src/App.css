@@ -1,0 +1,13 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* This is important */
+  color: black; /* Optional */
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
