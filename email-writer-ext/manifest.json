@@ -6,7 +6,8 @@
   "permissions":["activeTab","storage"],
   "host_permissions": [
     "https://localhost:8080/*",
-    "*://mail.google.com/*"
+    "*://mail.google.com/*",
+    "https://email-extension-springboot.onrender.com/"
   ],
   "content_scripts": [
     {

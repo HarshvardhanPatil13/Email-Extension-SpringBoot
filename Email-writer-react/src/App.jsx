@@ -93,6 +93,41 @@ function App() {
         </Button>
        </Box> 
       )}
+
+        <Box sx={{ mt: 4, textAlign: 'center' }}>
+        <Button
+          variant="contained"
+          color="secondary"
+          href="/email-writer-extension.zip"
+          download
+        >
+          📥 Get AI Reply Extension (ZIP)
+        </Button>
+      </Box>
+
+      <Typography variant="h6" sx={{ mt: 4, textAlign: 'center' }}>
+            How to Use the Chrome Extension
+      </Typography>
+
+          <Box sx={{ mt: 2, mx: 'auto', maxWidth: 700 }}>
+            <ol style={{ paddingLeft: '1.2rem' }}>
+              <li>Download the ZIP file using the button above.</li>
+              <li>Unzip the downloaded file to a folder.</li>
+              <li>
+                Open the Chrome Extensions page by either:
+                <ul style={{ marginTop: '4px', paddingLeft: '1.2rem' }}>
+                  <li>Click the <strong>⋮ (three-dot menu)</strong> → <strong>Extensions</strong> → <strong>Manage Extensions</strong></li>
+                  <li>Or type <code>chrome://extensions</code> in the address bar</li>
+                </ul>
+              </li>
+              <li>Enable <strong>Developer mode</strong> (toggle on top-right).</li>
+              <li>Click on <strong>Load unpacked</strong>.</li>
+              <li>Select the folder where you unzipped the extension.</li>
+              <li>Open Gmail, select an email and click <strong>Reply</strong>, then click the <strong>“AI Reply”</strong> button that appears in the reply toolbar.</li>
+            </ol>
+          </Box>
+
+
     </Container>
   )
 }
