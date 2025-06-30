@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post("https://email-extension-springboot.onrender.com/api/email/generate", {
+      const response = await axios.post("https://email-extension-springboot-production.up.railway.app/api/email/generate", {
        emailContent,
        tone 
       });

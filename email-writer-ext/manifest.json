@@ -7,7 +7,8 @@
   "host_permissions": [
     "https://localhost:8080/*",
     "*://mail.google.com/*",
-    "https://email-extension-springboot.onrender.com/"
+    "https://email-extension-springboot.onrender.com/",
+    "https://email-extension-springboot-production.up.railway.app/"
   ],
   "content_scripts": [
     {

@@ -63,7 +63,7 @@ function injectButton() {
             button.disabled = true;
 
             const emailContent = getEmailContent();
-            const response = await fetch('https://email-extension-springboot.onrender.com/api/email/generate', {
+            const response = await fetch('https://email-extension-springboot-production.up.railway.app/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
