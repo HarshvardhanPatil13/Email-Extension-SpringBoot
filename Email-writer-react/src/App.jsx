@@ -98,7 +98,7 @@ function App() {
         <Button
           variant="contained"
           color="secondary"
-          href="/email-writer-extension.zip"
+          href="/email-writer-ext1.zip"
           download
         >
           📥 Get AI Reply Extension (ZIP)
